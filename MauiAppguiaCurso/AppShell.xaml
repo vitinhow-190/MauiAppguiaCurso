@@ -5,11 +5,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiAppguiaCurso"
     Shell.FlyoutBehavior="Disabled"
-    Title="MauiAppguiaCurso">
+    Title="MauiAppguiaCurso"
+    BackgroundColor="Black">
 
     <ShellContent
-        Title="Home"
+        Title="Página inicial"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage"
+        />
 
 </Shell>

@@ -25,15 +25,17 @@
         <Grid RowDefinitions="150, *, *, *, *, *" 
     ColumnDefinitions="*, *, *" ColumnSpacing="10" RowSpacing="1" Margin="10">
 
-            <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="b1" Text="1º Ano" Clicked="b1_Clicked" />
-            <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="b2" Text="2º Ano" Clicked="b2_Clicked" />
-            <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="b3" Text="3º Ano" Clicked="b3_Clicked" />
+            <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="b1" Text="1º Ano" Clicked="b1_Clicked" />
+            <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="b2" Text="2º Ano" Clicked="b2_Clicked" />
+            <Button Grid.Row="5" Grid.Column="1" Style="{StaticResource BotaoClaro}" x:Name="b3" Text="3º Ano" Clicked="b3_Clicked" />
 
-            <Label Text="Texto na Linha 0"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               Grid.Row="0" 
-               TextColor="White"/>
+            <Image Source="ds2.jpg" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center" 
+               Grid.Row="1"
+               Grid.Column="1"
+               WidthRequest="500"
+               HeightRequest="500"/>
 
         </Grid>
     </ContentPage.Content>
