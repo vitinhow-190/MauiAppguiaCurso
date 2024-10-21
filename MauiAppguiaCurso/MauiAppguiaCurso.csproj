@@ -57,8 +57,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\primeiro.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\DS.png" />
 	  <None Remove="Resources\Images\ds2.jpg" />
+	  <None Remove="Resources\Images\espaco.png" />
+	  <None Remove="Resources\Images\primeiro.png" />
+	  <None Remove="Resources\Images\primeiroano.png" />
 	</ItemGroup>
 
 	<ItemGroup>

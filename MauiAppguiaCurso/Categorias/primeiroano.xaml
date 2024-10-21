@@ -4,11 +4,34 @@
              x:Class="MauiAppguiaCurso.Categorias.NewPage1"
              Title="NewPage1"
              BackgroundColor="Black">
+     
     <VerticalStackLayout>
-        <Label 
-            Text="YES YEs quem pode ser tiNALIA"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"
-            TextColor="White"/>
+        <Grid RowDefinitions="150, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *, *" 
+        ColumnDefinitions="*, *, *" ColumnSpacing="10" RowSpacing="1" Margin="10">
+            <Image Source="primeiroano.png" 
+             HorizontalOptions="Center" 
+             VerticalOptions="Center" 
+             Grid.Row="1"
+             Grid.Column="1"
+             WidthRequest="500"
+             HeightRequest="500"/>
+           
+            <Label Text="Tópico 1" Grid.Row="6" Grid.Column="1" TextColor="White" HorizontalOptions="Center" FontSize="20"/>
+            <Label Text="Tópico 2" Grid.Row="7" Grid.Column="1" TextColor="White"  HorizontalOptions="Center" FontSize="20"/>
+            <Label Text="Tópico 3" Grid.Row="8" Grid.Column="1" TextColor="White"  HorizontalOptions="Center" FontSize="20"/>
+            <Label Text="Tópico 4" Grid.Row="9" Grid.Column="1" TextColor="White"  HorizontalOptions="Center" FontSize="20"/>
+            <Image Source="espaco.png" 
+  HorizontalOptions="Center" 
+  VerticalOptions="Center" 
+  Grid.Row="10"
+  Grid.Column="1"
+  WidthRequest="200"
+  HeightRequest="200"/>
+            <Label  TextColor="White" Text="Título" FontSize="30" Grid.Row="12" Grid.Column="1" HorizontalOptions="Center" />
+            <Label  TextColor="White" Text="Texto do Tópico 1" Grid.Row="13" Grid.Column="1" HorizontalOptions="Center" />
+            <Label  TextColor="White" Text="Texto do Tópico 2" Grid.Row="14" Grid.Column="1" HorizontalOptions="Center" />
+            <Label  TextColor="White" Text="Texto adicional" Grid.Row="15" Grid.Column="1"  HorizontalOptions="Center" />
+
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>
